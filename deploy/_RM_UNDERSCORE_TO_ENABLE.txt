@@ -1,0 +1,1 @@
+Remove the leading `_` from a deploy script filename to enable it.

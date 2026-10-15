@@ -1,0 +1,12 @@
+{
+    "extends": "solhint:recommended",
+    "rules": {
+        "compiler-version": ["error", "^0.8.0"],
+        "private-vars-leading-underscore": "error",
+        "func-visibility": ["error", { "ignoreConstructors": true }],
+        "use-natspec": "off",
+        "gas-calldata-parameters": "off",
+        "gas-increment-by-one": "off",
+        "gas-strict-inequalities": "off"
+    }
+}
